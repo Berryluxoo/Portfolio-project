@@ -1,0 +1,30 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 96px;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+h3 {
+  color: var(--secondary-color);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: regular;
+}
+:root {
+  --secondary-color: #fcc4f0;
+  --main-gradient: linear-gradient(-45deg, #fcc4f0, #58caf2);
+  --additional-color: #0038f8;
+}
+i {
+    color: white;
+    font-size: 30px;
+}
