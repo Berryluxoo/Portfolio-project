@@ -9,15 +9,15 @@ h1 {
   text-align: center;
 }
 
-body {
-  background-color: black;
-}
+
 
 h3 {
   color: var(--secondary-color);
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: regular;
+  list-style: 2;
+ 
 }
 :root {
   --secondary-color: #fcc4f0;
@@ -27,4 +27,23 @@ h3 {
 i {
     color: white;
     font-size: 30px;
+}
+
+.button-hero {
+background-color: var(--secondary-color);
+font-family: 'Bebas Neue', cursive;
+padding: 15px 35px;
+font-size: 24px;
+margin: 0 auto;
+}
+
+.button-hero:hover {
+    background-color: var(--secondary-color);
+    color: var(--main-gradient);
+}
+
+.hero {
+    text-align: center;
+    background-color: black;
+    padding: 270px 30px 140px 30px;
 }
