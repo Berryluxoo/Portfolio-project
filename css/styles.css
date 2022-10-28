@@ -9,15 +9,12 @@ h1 {
   text-align: center;
 }
 
-
-
 h3 {
   color: var(--secondary-color);
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: regular;
   list-style: 2;
- 
 }
 :root {
   --secondary-color: #fcc4f0;
@@ -25,25 +22,71 @@ h3 {
   --additional-color: #0038f8;
 }
 i {
-    color: white;
-    font-size: 30px;
+  color: white;
+  font-size: 30px;
 }
 
 .button-hero {
-background-color: var(--secondary-color);
-font-family: 'Bebas Neue', cursive;
-padding: 15px 35px;
-font-size: 24px;
-margin: 0 auto;
+  background-color: var(--secondary-color);
+  font-family: "Bebas Neue", cursive;
+  padding: 15px 35px;
+  font-size: 24px;
+  margin: 0 auto;
+  border: none;
+  transition: auto 0s ease 0s;
+  opacity: 0.8972;
+  transform: translate3d(0px, 5.1392px, 0px);
 }
 
 .button-hero:hover {
-    background-color: var(--secondary-color);
-    color: var(--main-gradient);
+  background: var(--main-gradient);
+  border: none;
 }
 
 .hero {
-    text-align: center;
-    background-color: black;
-    padding: 270px 30px 140px 30px;
+  text-align: center;
+  background-color: black;
+  padding: 270px 30px 140px 30px;
+}
+
+.section-about {
+  text-align: center;
+  background-color: white;
+  padding: 120px 30px 50px 30px;
+}
+
+h2,
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 2;
+}
+
+p {
+  font-size: 35px;
+  margin: 20px 200px 30px 200px;
+  line-height: 45px;
+}
+
+.scrolling {
+  font-size: 15px;
+  color: #58caf2;
+}
+
+.section-projects {
+  background-color: var(--additional-color);
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+.section-projects h2 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.section-projects p {
+  font-size: 25px;
 }
