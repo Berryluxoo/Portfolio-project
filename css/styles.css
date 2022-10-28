@@ -60,13 +60,13 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
-h2 {
+.about-header {
   font-weight: 600;
   font-size: 60px;
   line-height: 2;
 }
 
-p {
+.about-par {
   font-size: 35px;
   margin: 20px 200px 30px 200px;
   line-height: 45px;
@@ -75,18 +75,33 @@ p {
 .scrolling {
   font-size: 15px;
   color: #58caf2;
+   margin-top: 50px;
+   margin-bottom: 0;
 }
 
 .section-projects {
   background-color: var(--additional-color);
   color: white;
   text-align: center;
-  padding: 50px;
-}
-.section-projects h2 {
-  font-family: "Bebas Neue", cursive;
+  padding: 50px 100px;
 }
 
-.section-projects p {
+.project-header {
+  font-weight: 600;
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
+  
+}
+
+.project-par {
   font-size: 25px;
+}
+
+.par-left {
+  text-align: left;;
+}
+
+.header-left {
+  text-align: left;
+  font-size: 45px;
 }
