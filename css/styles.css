@@ -75,8 +75,8 @@ p {
 .scrolling {
   font-size: 15px;
   color: #58caf2;
-   margin-top: 50px;
-   margin-bottom: 0;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .section-projects {
@@ -88,9 +88,8 @@ p {
 
 .project-header {
   font-weight: 600;
-  font-size: 60px;
+  font-size: 50px;
   font-family: "Bebas Neue", cursive;
-  
 }
 
 .project-par {
@@ -98,10 +97,45 @@ p {
 }
 
 .par-left {
-  text-align: left;;
+  text-align: left;
 }
 
 .header-left {
   text-align: left;
   font-size: 45px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+  .about-par {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .about-header {
+    font-size: 45px;
+  }
+  .par-left {
+    text-align: center;
+  }
+  .header-left {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1050px) {
+  .about-par {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .header-left {
+    font-size: 30px;
+  }
+  .section-projects {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
