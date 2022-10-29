@@ -14,7 +14,7 @@ h3 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: regular;
-  list-style: 2;
+  line-height: 1.3;
 }
 :root {
   --secondary-color: #fcc4f0;
@@ -106,6 +106,20 @@ p {
   line-height: 1;
   margin-bottom: 20px;
 }
+.about-hero {
+  text-align: center;
+  background-color: black;
+  padding: 150px 200px 50px 200px;
+}
+.about-description {
+  padding: 50px 10px;
+}
+
+.img-about {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+}
 
 @media (max-width: 768px) {
   h1 {
@@ -124,6 +138,20 @@ p {
   .header-left {
     text-align: center;
     margin-top: 30px;
+  }
+  .about-hero {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+  }
+  .about-description {
+    text-align: center;
+  }
+  .skills-mar {
+    margin-top: 45px;
+  }
+  .cer-mar {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 1050px) {
