@@ -9,7 +9,7 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .logo-site {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Bebas Neue', cursive;
   color: white;
   text-decoration: none;
   font-size: 35px;
@@ -126,12 +126,17 @@ p {
 
 .project-header {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 60px;
   font-family: "Bebas Neue", cursive;
 }
 
 .project-par {
   font-size: 25px;
+  color: white;
+}
+
+.project-par:hover {
+  color:white;
 }
 
 .par-left {
@@ -171,6 +176,14 @@ border-radius: 10px;
 
 .resume-nocolor {
   padding: 25px 50px 25px 50px;
+}
+
+i {
+  color: var(--additional-color);
+}
+
+.about-hero p {
+  font-size: 15px;
 }
 
 @media (max-width: 768px) {
