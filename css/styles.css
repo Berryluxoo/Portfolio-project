@@ -9,21 +9,19 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .logo-site {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   color: white;
   text-decoration: none;
   font-size: 35px;
-
 }
 
 .logo-site:hover {
-color: white;
-
+  color: white;
 }
 
 .menu-link {
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .menu-link:hover {
@@ -38,7 +36,6 @@ color: white;
 .header-icon {
   background-color: white;
 }
-
 
 h1 {
   font-family: "Abril Fatface", cursive;
@@ -74,6 +71,23 @@ i {
   transition: auto 0s ease 0s;
   opacity: 0.8972;
   transform: translate3d(0px, 5.1392px, 0px);
+}
+
+.button-skills {
+  background: var(--secondary-color);
+  font-family: "Bebas Neue", cursive;
+  padding: 15px 35px;
+  font-size: 24px;
+  margin: 0 auto;
+  border: none;
+  transition: auto 0s ease 0s;
+  opacity: 0.8972;
+  transform: translate3d(0px, 5.1392px, 0px);
+}
+
+.button-skills:hover {
+  background: var(--secondary-color);
+  
 }
 
 .button-hero:hover {
@@ -136,7 +150,7 @@ p {
 }
 
 .project-par:hover {
-  color:white;
+  color: white;
 }
 
 .par-left {
@@ -166,11 +180,10 @@ p {
 
 .resume-store {
   margin: 40px 80px;
-  
 }
 .resume-color {
   background-color: var(--secondary-color);
-border-radius: 10px;
+  border-radius: 10px;
   padding: 25px 50px 25px 50px;
 }
 
