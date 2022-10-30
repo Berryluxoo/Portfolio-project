@@ -1,6 +1,44 @@
 /* font-family: 'Abril Fatface', cursive;
 font-family: 'Bebas Neue', cursive;
 font-family: 'Montserrat', sans-serif; */
+#header-nav {
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+  padding: 25px;
+}
+
+.logo-site {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+
+}
+
+.logo-site:hover {
+color: white;
+
+}
+
+.menu-link {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu-link:hover {
+  color: var(--additional-color);
+}
+
+.active-link {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.header-icon {
+  background-color: white;
+}
+
 
 h1 {
   font-family: "Abril Fatface", cursive;
@@ -46,7 +84,7 @@ i {
 .hero {
   text-align: center;
   background-color: black;
-  padding: 270px 30px 140px 30px;
+  padding: 180px 30px 140px 30px;
 }
 
 .section-about {
@@ -109,7 +147,7 @@ p {
 .about-hero {
   text-align: center;
   background-color: black;
-  padding: 150px 200px 50px 200px;
+  padding: 60px 200px 50px 200px;
 }
 .about-description {
   padding: 50px 10px;
@@ -119,6 +157,20 @@ p {
   height: 300px;
   width: 300px;
   border-radius: 150px;
+}
+
+.resume-store {
+  margin: 40px 80px;
+  
+}
+.resume-color {
+  background-color: var(--secondary-color);
+border-radius: 10px;
+  padding: 25px 50px 25px 50px;
+}
+
+.resume-nocolor {
+  padding: 25px 50px 25px 50px;
 }
 
 @media (max-width: 768px) {
@@ -154,10 +206,10 @@ p {
     margin-bottom: 20px;
   }
   .img-about {
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
-}
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+  }
 }
 @media (max-width: 1050px) {
   .about-par {

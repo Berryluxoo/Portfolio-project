@@ -24,6 +24,50 @@
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg" id="header-nav">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand logo-site ms-4"
+            href="/"
+            title="Back to homepage"
+            >Lina Burkalo</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon header-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end pt-1"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a
+                class="nav-link menu-link me-3"
+                aria-current="page"
+                href="/"
+                title="Back to homepage"
+                >Home</a
+              >
+              <a class="nav-link menu-link me-3 active-link" href="/about.html"
+                >About</a
+              >
+              <a class="nav-link menu-link me-3" href="/work.html">Work</a>
+              <a class="nav-link menu-link me-5" href="/contact.html"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <div class="about-hero">
       <h1 class="mb-4">About Me</h1>
       <h3 class="mb-4">
@@ -45,9 +89,9 @@
               browser. I'm open to Job opportunities where I can contribute,
               learn and grow. If you have a good opportunity that matches my
               skills and experience then don't hesitate to
-              <strong>contact me </strong>.
+              <strong>contact me </strong>. Below you can read my CV:
             </p>
-            <a href="#" class="btn button-hero">Contact</a>
+            <a href="/work.html" class="btn button-hero">Read CV</a>
           </div>
           <div class="col-md-6 ps-5">
             <h2 class="fw-bold mb-4 skills-mar">My skills</h2>
@@ -59,11 +103,12 @@
               </div>
               <div>
                 <span class="btn button-hero me-2 mb-3">JavaScript</span>
-
+                <span class="btn button-hero me-2 mb-3">SMM</span>
                 <span class="btn button-hero me-2 mb-3">SQL</span>
               </div>
               <div>
                 <span class="btn button-hero me-2 mb-3">React</span>
+                <span class="btn button-hero me-2 mb-3">SEO</span>
                 <span class="btn button-hero me-2 mb-3">Bootstrap</span>
               </div>
             </div>
@@ -82,6 +127,14 @@
               alt="certificate shecodes"
               class="img-fluid p-2 m-1 shadow rounded"
             />
+            <p class="fw-bold mt-3 skills-mar project-par">
+              Course SheCodes Basic
+            </p>
+            <a
+              href="https://www.shecodes.io/certificates/29899965fc240d7862bb0ac1b2018b3f"
+              class="btn button-hero"
+              >VALID CERTIFICATE</a
+            >
           </div>
           <div class="col-md-4 cer-mar">
             <img
@@ -89,6 +142,14 @@
               alt="certificate shecodes"
               class="img-fluid p-2 m-1 shadow rounded"
             />
+            <p class="fw-bold mt-3 skills-mar project-par">
+              Course SheCodes Plus
+            </p>
+            <a
+              href="https://www.shecodes.io/certificates/f2936651ae674de1fa99739261ace4c9"
+              class="btn button-hero"
+              >VALID CERTIFICATE</a
+            >
           </div>
           <div class="col-md-4 cer-mar">
             <img
@@ -96,6 +157,14 @@
               alt="certificate shecodes"
               class="img-fluid p-2 m-1 shadow rounded"
             />
+            <p class="fw-bold mt-3 skills-mar project-par">
+              SheCodes Responsive
+            </p>
+            <a
+              href="https://www.shecodes.io/certificates/29899965fc240d7862bb0ac1b2018b3f"
+              class="btn button-hero"
+              >VALID CERTIFICATE</a
+            >
           </div>
         </div>
       </div>
