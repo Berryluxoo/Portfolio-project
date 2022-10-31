@@ -13,6 +13,7 @@ font-family: 'Montserrat', sans-serif; */
   color: white;
   text-decoration: none;
   font-size: 35px;
+  margin-left: 25px;
 }
 
 .logo-site:hover {
@@ -64,7 +65,7 @@ i {
 .button-hero {
   background-color: var(--secondary-color);
   font-family: "Bebas Neue", cursive;
-  padding: 15px 35px;
+  padding: 13px 35px;
   font-size: 24px;
   margin: 0 auto;
   border: none;
@@ -83,8 +84,13 @@ i {
   transition: auto 0s ease 0s;
   opacity: 0.8972;
   transform: translate3d(0px, 5.1392px, 0px);
+  border-radius: 4px;
 }
 
+.card-text {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
 .button-skills:hover {
   background: var(--secondary-color);
   
@@ -149,10 +155,6 @@ p {
   color: white;
 }
 
-.project-par:hover {
-  color: white;
-}
-
 .par-left {
   text-align: left;
 }
@@ -199,7 +201,100 @@ i {
   font-size: 15px;
 }
 
+.img-box {
+  width: 80%;
+margin: 0 auto;
+
+}
+
+.img-box img {
+  width: 90%;
+  padding: 15px;
+  background-color: #fcc4f0;
+}
+.img-card h2 {
+  font-size: 25px;
+  
+}
+
+.text-box {
+  width: 400px;
+}
+
+.text-box {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.links {
+  color: var(--additional-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+.ab-wrap {
+  padding-left: 50px;
+
+}
+
+.resume-store h2 {
+  color: black;
+  text-align: center;
+}
+
+.resume-store p {
+  color: black;
+  text-align: center;
+}
+
+.contact__form-container {
+    box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+    background: #fff;
+    padding: 20px;
+    text-align: right;
+    max-width: 450px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 50px auto 50px auto; 
+    font-family: 'Montserrat', sans-serif;
+  }
+  .contact__form-container .button-hero {
+    display: block;
+    margin: 0 auto;
+
+  }
+
+    .contact__form-input {
+    color: #333;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 18px;
+    letter-spacing: 0;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+
+.contact__form-label {
+    color: #666;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    text-align: left;
+}
+
 @media (max-width: 768px) {
+  .hero {
+  padding-top: 100px;
+  }
+  .logo-site {
+    margin-left: 0;
+  }
+  .section-about {
+    padding-top: 40px;
+  }
   h1 {
     font-size: 50px;
   }
@@ -236,6 +331,15 @@ i {
     width: 200px;
     border-radius: 100px;
   }
+  .resume-store {
+    margin: 0;
+  }
+  .section-projects {
+    padding: 50px 0;
+    margin: 0;
+    text-align: center;
+  }
+ 
 }
 @media (max-width: 1050px) {
   .about-par {
@@ -248,5 +352,8 @@ i {
   .section-projects {
     padding-left: 10px;
     padding-right: 10px;
+  }
+   .ab-wrap {
+    padding-left: 0;
   }
 }
